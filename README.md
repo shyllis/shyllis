@@ -1,5 +1,18 @@
-- 👋 Hi, I’m @dolpshy
-- 👀 I’m interested in Modding fnf mods
+bruh bruh  brruhr bruhrhrh
+
+
+bru  h
+
+
+
+
+brrurururuhhhh
+
+susususssusussusususususususususususus
+
+why i am
+
+wth
 
 <!---
 dolpshy/dolpshy is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
