@@ -420,6 +420,28 @@
                 margin-top: 1rem;
             }
 
+            #text04 {
+                color: #000000;
+                font-family: 'Sora', sans-serif;
+                letter-spacing: 0.275rem;
+                width: calc(100% + 0.275rem);
+                font-size: 1em;
+                line-height: 1.375;
+                font-weight: 200;
+            }
+
+            #text04 a {
+                text-decoration: underline;
+            }
+
+            #text04 a:hover {
+                text-decoration: none;
+            }
+
+            #text04 span.p:nth-child(n + 2) {
+                margin-top: 1rem;
+            }
+
             .container {
                 position: relative;
             }
@@ -586,6 +608,139 @@
             }
 
             #container01.columns > .wrapper > .inner > .full > .full:first-child:last-child > * {
+                border-radius: inherit;
+                height: 100%;
+                position: absolute;
+                width: 100%;
+            }
+
+            #container02 > .wrapper {
+                display: inline-block;
+                width: 75rem;
+                background-color: transparent;
+            }
+
+            #container02 > .wrapper > .inner {
+                --gutters: 2rem;
+                --padding-horizontal: 0rem;
+                --padding-vertical: 0.5rem;
+                --spacing: 1rem;
+                padding: var(--padding-vertical) var(--padding-horizontal);
+            }
+
+            #container02.default > .wrapper > .inner > * {
+                margin-bottom: var(--spacing);
+                margin-top: var(--spacing);
+            }
+
+            #container02.default > .wrapper > .inner > *:first-child {
+                margin-top: 0 !important;
+            }
+
+            #container02.default > .wrapper > .inner > *:last-child {
+                margin-bottom: 0 !important;
+            }
+
+            #container02.columns > .wrapper > .inner {
+                flex-wrap: wrap;
+                display: flex;
+                align-items: flex-start;
+            }
+
+            #container02.columns > .wrapper > .inner > * {
+                flex-grow: 0;
+                flex-shrink: 0;
+                max-width: 100%;
+                text-align: var(--alignment);
+                padding: 0 0 0 var(--gutters);
+            }
+
+            #container02.columns > .wrapper > .inner > * > * {
+                margin-bottom: var(--spacing);
+                margin-top: var(--spacing);
+            }
+
+            #container02.columns > .wrapper > .inner > * > *:first-child {
+                margin-top: 0 !important;
+            }
+
+            #container02.columns > .wrapper > .inner > * > *:last-child {
+                margin-bottom: 0 !important;
+            }
+
+            #container02.columns > .wrapper > .inner > *:first-child {
+                margin-left: calc(var(--gutters) * -1);
+            }
+
+            #container02.default > .wrapper > .inner > .full {
+                margin-left: calc(var(--padding-horizontal) * -1);
+                max-width: none !important;
+                width: calc(100% + (var(--padding-horizontal) * 2) + 0.4725px);
+            }
+
+            #container02.default > .wrapper > .inner > .full:first-child {
+                margin-top: calc(var(--padding-vertical) * -1) !important;
+                border-top-left-radius: inherit;
+                border-top-right-radius: inherit;
+            }
+
+            #container02.default > .wrapper > .inner > .full:last-child {
+                margin-bottom: calc(var(--padding-vertical) * -1) !important;
+                border-bottom-left-radius: inherit;
+                border-bottom-right-radius: inherit;
+            }
+
+            #container02.columns > .wrapper > .inner > div > .full {
+                margin-left: calc(var(--gutters) * -0.5);
+                max-width: none !important;
+                width: calc(100% + var(--gutters) + 0.4725px);
+            }
+
+            #container02.columns > .wrapper > .inner > div:first-child > .full {
+                margin-left: calc(var(--padding-horizontal) * -1);
+                width: calc(100% + var(--padding-horizontal) + calc(var(--gutters) * 0.5) + 0.4725px);
+            }
+
+            #container02.columns > .wrapper > .inner > div:last-child > .full {
+                width: calc(100% + var(--padding-horizontal) + calc(var(--gutters) * 0.5) + 0.4725px);
+            }
+
+            #container02.columns > .wrapper > .inner > div > .full:first-child {
+                margin-top: calc(var(--padding-vertical) * -1) !important;
+            }
+
+            #container02.columns > .wrapper > .inner > div > .full:last-child {
+                margin-bottom: calc(var(--padding-vertical) * -1) !important;
+            }
+
+            #container02.columns > .wrapper > .inner > div:first-child, #container02.columns > .wrapper > .inner > div:first-child > .full:first-child {
+                border-top-left-radius: inherit;
+            }
+
+            #container02.columns > .wrapper > .inner > div:last-child, #container02.columns > .wrapper > .inner > div:last-child > .full:first-child {
+                border-top-right-radius: inherit;
+            }
+
+            #container02.columns > .wrapper > .inner > .full {
+                align-self: stretch;
+            }
+
+            #container02.columns > .wrapper > .inner > .full:first-child {
+                border-bottom-left-radius: inherit;
+                border-top-left-radius: inherit;
+            }
+
+            #container02.columns > .wrapper > .inner > .full:last-child {
+                border-bottom-right-radius: inherit;
+                border-top-right-radius: inherit;
+            }
+
+            #container02.columns > .wrapper > .inner > .full > .full:first-child:last-child {
+                border-radius: inherit;
+                height: calc(100% + (var(--padding-vertical) * 2));
+            }
+
+            #container02.columns > .wrapper > .inner > .full > .full:first-child:last-child > * {
                 border-radius: inherit;
                 height: 100%;
                 position: absolute;
@@ -760,6 +915,13 @@
                     line-height: 1.375;
                 }
 
+                #text04 {
+                    letter-spacing: 0.240625rem;
+                    width: calc(100% + 0.240625rem);
+                    font-size: 1em;
+                    line-height: 1.375;
+                }
+
                 #container01 > .wrapper > .inner {
                     --gutters: 2rem;
                     --padding-horizontal: 0rem;
@@ -850,6 +1012,97 @@
                     position: relative;
                     width: auto;
                 }
+                
+                #container02 > .wrapper > .inner {
+                    --gutters: 2rem;
+                    --padding-horizontal: 0rem;
+                    --padding-vertical: 0.5rem;
+                    --spacing: 1rem;
+                }
+
+                #container02.columns > .wrapper > .inner {
+                    flex-direction: column !important;
+                    flex-wrap: nowrap !important;
+                }
+
+                #container02.columns > .wrapper > .inner > span {
+                    height: 0;
+                    margin-top: calc(var(--gutters) * -1);
+                    pointer-events: none;
+                    visibility: hidden;
+                }
+
+                #container02.columns > .wrapper > .inner > *:first-child {
+                    margin-left: 0 !important;
+                    padding-top: 0 !important;
+                }
+
+                #container02.columns > .wrapper > .inner > * {
+                    padding: calc(var(--gutters) * 0.5) 0 !important;
+                }
+
+                #container02.columns > .wrapper > .inner > *:last-child {
+                    padding-bottom: 0 !important;
+                }
+
+                #container02.columns > .wrapper > .inner > div > .full {
+                    margin-left: calc(var(--padding-horizontal) * -1);
+                    width: calc(100% + (var(--padding-horizontal) * 2) + 0.4725px);
+                }
+
+                #container02.columns > .wrapper > .inner > div:first-of-type > .full {
+                    margin-left: calc(var(--padding-horizontal) * -1);
+                    width: calc(100% + (var(--padding-horizontal) * 2) + 0.4725px);
+                }
+
+                #container02.columns > .wrapper > .inner > div:last-of-type > .full {
+                    margin-left: calc(var(--padding-horizontal) * -1);
+                    width: calc(100% + (var(--padding-horizontal) * 2) + 0.4725px);
+                }
+
+                #container02.columns > .wrapper > .inner > div > .full:first-child {
+                    margin-top: calc(var(--gutters) * -0.5) !important;
+                }
+
+                #container02.columns > .wrapper > .inner > div > .full:last-child {
+                    margin-bottom: calc(var(--gutters) * -0.5) !important;
+                }
+
+                #container02.columns > .wrapper > .inner > div:first-of-type > .full:first-child {
+                    margin-top: calc(var(--padding-vertical) * -1) !important;
+                }
+
+                #container02.columns > .wrapper > .inner > div:last-of-type > .full:last-child {
+                    margin-bottom: calc(var(--padding-vertical) * -1) !important;
+                }
+
+                #container02.columns > .wrapper > .inner > div:first-of-type, #container02.columns > .wrapper > .inner > div:first-of-type > .full:first-child {
+                    border-top-left-radius: inherit;
+                    border-top-right-radius: inherit;
+                }
+
+                #container02.columns > .wrapper > .inner > div:last-of-type, #container02.columns > .wrapper > .inner > div:last-of-type > .full:last-child {
+                    border-bottom-left-radius: inherit;
+                    border-bottom-right-radius: inherit;
+                }
+
+                #container02.columns > .wrapper > .inner > div:first-of-type, #container02.columns > .wrapper > .inner > div:first-of-type > .full:last-child {
+                    border-bottom-left-radius: 0 !important;
+                }
+
+                #container02.columns > .wrapper > .inner > div:last-of-type, #container02.columns > .wrapper > .inner > div:last-of-type > .full:first-child {
+                    border-top-right-radius: 0 !important;
+                }
+
+                #container02.columns > .wrapper > .inner > .full > .full:first-child:last-child {
+                    height: auto;
+                }
+
+                #container02.columns > .wrapper > .inner > .full > .full:first-child:last-child > * {
+                    height: auto;
+                    position: relative;
+                    width: auto;
+                }
 
                 #buttons01 {
                     gap: 0.625rem;
@@ -879,6 +1132,10 @@
                     --spacing: 0.875rem;
                 }
 
+                #container02 > .wrapper > .inner {
+                    --spacing: 0.875rem;
+                }
+
                 #buttons01 {
                     flex-direction: column;
                     flex-wrap: nowrap;
@@ -905,7 +1162,18 @@
                     font-size: 1.5em;
                 }
 
+                #text04 {
+                    font-size: 1em;
+                }
+
                 #container01 > .wrapper > .inner {
+                    --gutters: 1.5rem;
+                    --padding-horizontal: 0rem;
+                    --padding-vertical: 0.375rem;
+                    --spacing: 0.75rem;
+                }
+
+                #container02 > .wrapper > .inner {
                     --gutters: 1.5rem;
                     --padding-horizontal: 0rem;
                     --padding-vertical: 0.375rem;
@@ -1015,14 +1283,20 @@
                                 <span class="label">Twitter</span>
                             </a>
                         </li>
-                        <h1 id="text03">Newest Releases</h1>
-                        <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/track=3602039289/size=small/bgcol=999999/linkcol=4869D6/transparent=true/" seamless>
-                            <a href="https://shyllis.bandcamp.com/track/laughing-with-big-word">Laughing with BIG word</a>
-                        </iframe>
-                        <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=591208001/size=small/bgcol=999999/linkcol=4869D6/transparent=true/" seamless>
-                            <a href="https://shyllis.bandcamp.com/album/this">This.</a>
-                        </iframe>
                     </ul>
+                    <div id="container02" class="container default">
+                        <div class="wrapper">
+                            <div class="inner">
+                                <h1 id="text04">newest releases</h1>
+                                <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/track=3602039289/size=small/bgcol=999999/linkcol=4869D6/transparent=true/" seamless>
+                                    <a href="https://shyllis.bandcamp.com/track/laughing-with-big-word">Laughing with BIG word</a>
+                                </iframe>
+                                <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=591208001/size=small/bgcol=999999/linkcol=4869D6/transparent=true/" seamless>
+                                    <a href="https://shyllis.bandcamp.com/album/this">This.</a>
+                                </iframe>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
