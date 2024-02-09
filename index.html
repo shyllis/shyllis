@@ -875,6 +875,48 @@
                 background-color: #2f273c;
             }
 
+            .links {
+                display: flex;
+                justify-content: var(--flex-alignment);
+                letter-spacing: 0;
+                line-height: 1.5;
+                padding: 0;
+            }
+
+            .links li {
+                position: relative;
+            }
+
+            .links li a {
+                direction: var(--site-language-direction);
+                display: block;
+            }
+
+            #links01 {
+                gap: 0rem;
+                flex-direction: row;
+                flex-wrap: wrap;
+                text-transform: lowercase;
+                font-family: 'Sora', sans-serif;
+                letter-spacing: -0.025rem;
+                margin-right: 0.025rem;
+                font-size: 1em;
+                font-weight: 300;
+            }
+
+            #links01 li a {
+                color: #000000;
+                text-decoration: none;
+            }
+
+            #links01 li a:hover {
+                text-decoration: underline;
+            }
+
+            #links01 .n01 a {
+                color: #2f273c;
+            }
+
             @media (max-width: 1920px) {
             }
 
@@ -1338,6 +1380,11 @@
                             </div>
                         </div>
                     </div>
+                    <ul id="links01" class="links">
+                        <li class="n01">
+                            <a href="https://ko-fi.com/shyllis">donate</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
