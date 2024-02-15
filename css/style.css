@@ -116,11 +116,6 @@ img {
   color: #fff;
 }
 
-.btn-block {
-  display: block;
-  width: 100%;
-}
-
 /* Text Classes */
 .text-big {
   font-size: 3rem;
