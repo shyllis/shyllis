@@ -1,0 +1,218 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primary-color: #fe0281;
+  --light-color: #f4f4f6;
+  --dark-color: #2f273c;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background: #fff;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: #2f273c;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* nickname */
+.nickname {
+  margin-bottom: 50px;
+}
+
+.nickname .nickname-content {
+  width: 70%;
+}
+
+.nickname .nickname-text {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+/* socials */
+.socials {
+  padding: 40px 0;
+}
+
+.socials .socials-heading {
+  width: 700px;
+  margin-bottom: 40px;
+}
+
+.socials .socials-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.socials .card p:nth-child(2) {
+  margin-top: 30px;
+  font-weight: bold;
+}
+
+/* Utility Classes */
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.container-sm {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* Card */
+.card {
+  background: #fff;
+  color: #2f273c;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+/* Buttons */
+.btn {
+  display: block;
+  padding: 20px 465px;
+  background: var(--light-color);
+  color: #2f273c;
+  font-weight: 600;
+  text-decoration: none;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  text-align: center;
+  transition: 0.5s;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.btn-primary {
+  background: var(--primary-color);
+  color: #fff;
+}
+
+.btn-dark {
+  background: var(--dark-color);
+  color: #fff;
+}
+
+.btn-block {
+  display: block;
+  width: 100%;
+}
+
+/* Text Classes */
+.text-big {
+  font-size: 3rem;
+  line-height: 1.2;
+  font-weight: 600;
+  margin: 40px 0 20px;
+  color: #2f273c;
+}
+
+.text-other {
+  font-size: 2.2rem;
+  line-height: 1.4;
+  font-weight: normal;
+  margin: 40px 0 20px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* Background */
+.bg-primary {
+  background: var(--primary-color);
+  color: #fff;
+}
+
+.bg-light {
+  background: var(--light-color);
+  color: #333;
+}
+
+.bg-dark {
+  background: var(--dark-color);
+  color: #fff;
+}
+
+.bg-black {
+  background: #2f273c;
+  color: #fff;
+}
+
+/* Media Queries */
+@media (max-width: 960px) {
+  .text-xxl {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 670px) {
+  .navbar .main-menu {
+    display: none;
+  }
+
+  .navbar .hamburger-button {
+    display: block;
+  }
+
+  .nickname .nickname-content,
+  .nickname .nickname-text {
+    width: 100%;
+    text-align: center;
+  }
+
+  .socials .socials-heading {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .socials .socials-grid,
+  .socials .music-heading {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .socials .music-grid,
+
+  /* Text */
+  .text-xl {
+    font-size: 1.9rem;
+  }
+
+  .text-lg {
+    font-size: 1.5rem;
+  }
+
+  .text-md {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .text-xxl {
+    font-size: 2rem;
+  }
+}
